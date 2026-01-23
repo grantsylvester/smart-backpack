@@ -3486,6 +3486,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 208.28 21.59)
+		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6ce3c21-a733-4fa1-8134-cea10a02c4e5")
+		(property "Sheetname" "Components"
+			(at 208.28 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 208.28 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
