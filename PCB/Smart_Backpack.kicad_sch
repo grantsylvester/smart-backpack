@@ -1670,7 +1670,7 @@
 	)
 	(text "Buck Converters"
 		(exclude_from_sim no)
-		(at 165.1 110.236 0)
+		(at 197.866 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1692,7 +1692,7 @@
 	)
 	(text "GPS maybe? If we can get an external antenna, GPS on PCB"
 		(exclude_from_sim no)
-		(at 165.1 117.856 0)
+		(at 197.866 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1703,7 +1703,7 @@
 	)
 	(text "Correct footprints for all parts"
 		(exclude_from_sim no)
-		(at 165.1 120.396 0)
+		(at 197.866 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1714,7 +1714,7 @@
 	)
 	(text "Schematic To Do List:"
 		(exclude_from_sim no)
-		(at 149.86 106.426 0)
+		(at 182.626 76.454 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1736,7 +1736,7 @@
 	)
 	(text "Connections for off board components"
 		(exclude_from_sim no)
-		(at 165.1 115.316 0)
+		(at 197.866 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 165.1 112.776 0)
+		(at 197.866 82.804 0)
 		(effects
 			(font
 				(size 1.27 1.27)
