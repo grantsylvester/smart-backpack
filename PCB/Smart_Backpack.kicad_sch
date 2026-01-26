@@ -1723,6 +1723,17 @@
 		)
 		(uuid "82ee2128-b716-4428-b73b-4081c3ce565f")
 	)
+	(text "Fix Power circuit add reset pin"
+		(exclude_from_sim no)
+		(at 197.866 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a28de78a-6a88-4d49-9442-ae4d4fade3cd")
+	)
 	(text "I'm just putting the microcontroller on this sheet Grant"
 		(exclude_from_sim no)
 		(at 21.59 129.54 0)
