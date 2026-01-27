@@ -2926,6 +2926,253 @@
 		)
 	)
 	(symbol
+		(lib_id "ESP32:ESP32-PICO-MINI-02-N8R2")
+		(at 27.94 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1022b83d-78fc-48be-ae4d-8844204bcaae")
+		(property "Reference" "U3"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ESP32-PICO-MINI-02-N8R2"
+			(at 48.26 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "STM32:ESP32-PICO-MINI-02_EXP"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ESP32-PICO-MINI-02-N8R2"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eb3217f-6797-47d2-bc01-c0f27f87b550")
+		)
+		(pin "9"
+			(uuid "8d74cd7f-cfad-4d03-bf9a-80c9ca321aa6")
+		)
+		(pin "14"
+			(uuid "fce13c05-598a-42b4-93a5-7570018bb0b3")
+		)
+		(pin "13"
+			(uuid "b1e2979e-c34a-4f46-bbb6-3d219a04c797")
+		)
+		(pin "2"
+			(uuid "68600c3d-d15a-4a52-951b-4fac1dba33b7")
+		)
+		(pin "5"
+			(uuid "da6e0a46-277a-422d-9b0d-77bed7ba94d6")
+		)
+		(pin "23"
+			(uuid "f3b40e73-a24b-41d1-b07a-4cc7981ca18a")
+		)
+		(pin "24"
+			(uuid "ffd95dc9-7db0-47ea-8507-34531985a9f2")
+		)
+		(pin "6"
+			(uuid "3251bc84-0131-448f-a578-769a1dfbb097")
+		)
+		(pin "17"
+			(uuid "78ab2103-c2ed-425c-9a1f-0cb8c4f27fb2")
+		)
+		(pin "4"
+			(uuid "acd04671-d52f-4085-b33f-e53bfd148975")
+		)
+		(pin "8"
+			(uuid "7d98ea82-3bda-41f4-be5a-844850feaaef")
+		)
+		(pin "11"
+			(uuid "f30332fb-05b1-46fb-8479-7562ec150f54")
+		)
+		(pin "15"
+			(uuid "e73ae3f8-9cc1-437b-a557-801a2573e9b5")
+		)
+		(pin "3"
+			(uuid "0bdae41d-0543-4ffc-aee1-066a4cf1ac85")
+		)
+		(pin "7"
+			(uuid "148673b5-cf3d-40e0-9676-a10c4c1079bf")
+		)
+		(pin "10"
+			(uuid "cc9d1da6-3777-433b-9700-6d15c5da4811")
+		)
+		(pin "12"
+			(uuid "017fdd53-7b73-4096-b568-d29b27b3cf3c")
+		)
+		(pin "16"
+			(uuid "95ccb296-9012-4856-b8aa-de98c5095f30")
+		)
+		(pin "19"
+			(uuid "3a0fa4b7-5a97-4a75-a015-8310a1232164")
+		)
+		(pin "18"
+			(uuid "a4a1c6b7-bfed-45c2-83d8-dd7193177cb6")
+		)
+		(pin "20"
+			(uuid "870835ba-ad6f-49e1-b76a-9ca7b3630c79")
+		)
+		(pin "21"
+			(uuid "8d2d59ce-618f-4d5b-8fa2-5401f962bd0b")
+		)
+		(pin "22"
+			(uuid "ac210ed6-0b01-4268-adaa-ccc202258164")
+		)
+		(pin "27"
+			(uuid "f54ebe20-538c-4b88-b698-0fc05a00d249")
+		)
+		(pin "61"
+			(uuid "8ee6b707-395e-4bb1-a026-d835d02dbd87")
+		)
+		(pin "57"
+			(uuid "b8dec361-d0a4-48cd-984b-9b22916b235c")
+		)
+		(pin "56"
+			(uuid "e7f7e8cb-2c62-4359-a6a7-90712d068e64")
+		)
+		(pin "29"
+			(uuid "1b7385c8-2095-4b07-9f99-ea404ebeeb14")
+		)
+		(pin "59"
+			(uuid "9b5c5960-f5a2-49d6-99e0-f3e331dbb9d0")
+		)
+		(pin "25"
+			(uuid "4f301b36-5566-4392-8832-afcc57daef87")
+		)
+		(pin "26"
+			(uuid "64ea86d4-6074-4a77-ae3d-480fce553b0f")
+		)
+		(pin "28"
+			(uuid "30999157-a7bf-4b84-9483-e57a852485e4")
+		)
+		(pin "30"
+			(uuid "972a819a-857e-47af-8fe3-fe9bf70e48a5")
+		)
+		(pin "60"
+			(uuid "6babc8a0-5e52-4b0d-808e-efa71a879c2c")
+		)
+		(pin "58"
+			(uuid "159b379d-96fe-4df7-a452-61f8901059ea")
+		)
+		(pin "52"
+			(uuid "686ef68d-541e-4c73-be30-8dec75ea6113")
+		)
+		(pin "39"
+			(uuid "8d994854-e7e5-4e31-acc8-a95477af3321")
+		)
+		(pin "54"
+			(uuid "023459f8-fc56-437e-a12b-9b83d27d112d")
+		)
+		(pin "47"
+			(uuid "ef96de2b-6710-4b17-acd1-54ee85c6f27b")
+		)
+		(pin "33"
+			(uuid "33e57e0f-d214-4071-b527-f52a363a8102")
+		)
+		(pin "32"
+			(uuid "fcd4e132-0573-4df8-8898-32ccffce6af7")
+		)
+		(pin "49"
+			(uuid "6bad935a-ea47-464e-b933-3a1f5f6b077a")
+		)
+		(pin "55"
+			(uuid "6e63bf2f-558e-46f8-a0f8-e0a6563df3a1")
+		)
+		(pin "51"
+			(uuid "26423add-11c0-4950-a607-84542a6ab973")
+		)
+		(pin "50"
+			(uuid "6aa8a52f-0af1-45bb-b72c-8358ad9b99f5")
+		)
+		(pin "48"
+			(uuid "3c24fd48-9c27-494e-9261-3121ba161fab")
+		)
+		(pin "53"
+			(uuid "26e9ae47-1a96-416b-a8ce-f20e82cbe675")
+		)
+		(pin "44"
+			(uuid "f9f2c7ae-d7ec-49b6-a482-e26f9ad141dc")
+		)
+		(pin "43"
+			(uuid "a871ddfc-5f38-4913-936a-df8276ff5bbf")
+		)
+		(pin "45"
+			(uuid "64ff2b92-c4ef-459e-97da-adc196689376")
+		)
+		(pin "46"
+			(uuid "b93112d6-1c19-4970-bc68-0354515d9916")
+		)
+		(pin "42"
+			(uuid "413c9014-ad1d-465d-aed3-90b31b52aa5e")
+		)
+		(pin "41"
+			(uuid "2e02c858-983a-4462-830c-f81a7bd6769a")
+		)
+		(pin "38"
+			(uuid "8ce64820-b635-458f-b2b7-0ed34385574a")
+		)
+		(pin "40"
+			(uuid "c73f096a-3bc1-4c30-88fe-12ab354c0d2f")
+		)
+		(pin "37"
+			(uuid "b4f732f2-9179-42d7-81e2-a01b30de7394")
+		)
+		(pin "36"
+			(uuid "e6972774-1a6a-42ef-93b9-e2a830393e65")
+		)
+		(pin "35"
+			(uuid "e7346ec2-6434-4446-85da-f601f9d8bcc3")
+		)
+		(pin "34"
+			(uuid "18789793-2bfb-45ee-a81b-8c6645670696")
+		)
+		(pin "31"
+			(uuid "e355b1e9-871b-4748-9f78-9c378f7039e3")
+		)
+		(instances
+			(project ""
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 115.57 57.15 0)
@@ -3120,252 +3367,6 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESP32:ESP32-PICO-MINI-02-N8R2")
-		(at 27.94 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52a1d4ed-4e7b-453c-b4da-0a5b9431503c")
-		(property "Reference" "U1"
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ESP32-PICO-MINI-02-N8R2"
-			(at 48.26 27.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ESP32:ESP32-PICO-MINI-02_EXP"
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ESP32-PICO-MINI-02-N8R2"
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "24"
-			(uuid "c21a5205-351b-46e0-8416-71efd3077682")
-		)
-		(pin "6"
-			(uuid "cd1f8d98-9449-4940-9369-ea17687b3e99")
-		)
-		(pin "34"
-			(uuid "fd1ad6c7-d6f5-4c26-9063-066e9bb6f49b")
-		)
-		(pin "36"
-			(uuid "ebacd52f-37e6-49d8-ba20-c895fcfd35c1")
-		)
-		(pin "39"
-			(uuid "61c46e7e-3e4f-4bdd-8311-3d6ec982b2a0")
-		)
-		(pin "48"
-			(uuid "d4e557dc-d86c-4e3a-aa49-15ea56edee6e")
-		)
-		(pin "18"
-			(uuid "b0356373-e68b-498c-9990-ed6088471654")
-		)
-		(pin "10"
-			(uuid "e36f28ee-8bf9-442a-826c-8346e49448fd")
-		)
-		(pin "57"
-			(uuid "609d38ac-ba92-430a-8921-4a5198f5c0ec")
-		)
-		(pin "47"
-			(uuid "51fc7433-55ef-4fe9-8f94-08870dc6dac5")
-		)
-		(pin "28"
-			(uuid "607cd676-348d-4331-a3d2-4bb6106b62e1")
-		)
-		(pin "33"
-			(uuid "6fab0441-a0b8-4c80-b47f-782bc9ffa5ef")
-		)
-		(pin "53"
-			(uuid "19f44ae0-2a87-4800-9a51-c423ae85b347")
-		)
-		(pin "7"
-			(uuid "dd892dee-ab25-4e03-a0d6-8ba1de9002f8")
-		)
-		(pin "25"
-			(uuid "e62c4a6f-e1d1-4f04-8421-7370c41c62f8")
-		)
-		(pin "59"
-			(uuid "871e2ea9-2ad2-4a30-8244-aaf6990f6653")
-		)
-		(pin "44"
-			(uuid "fb55025d-1489-4845-a73c-ac68e42682a8")
-		)
-		(pin "31"
-			(uuid "19cf60d0-46c1-4475-a63d-5c4f8c4cbd10")
-		)
-		(pin "35"
-			(uuid "5f553728-ef04-45cc-acad-61474729a4dd")
-		)
-		(pin "14"
-			(uuid "0db81024-942d-47f0-9b57-c15b0c7c01a8")
-		)
-		(pin "17"
-			(uuid "dda34442-bc10-4a0d-b5fe-52f8875077df")
-		)
-		(pin "27"
-			(uuid "6373bc83-4972-4184-acab-ea8105a603a4")
-		)
-		(pin "55"
-			(uuid "83da48ce-8b85-43e1-ae00-e419455ddbdd")
-		)
-		(pin "30"
-			(uuid "9c6d3f65-46d4-4282-8010-03cf45cce0c8")
-		)
-		(pin "56"
-			(uuid "4d2de32e-805a-4190-b7fa-798b5ba4ceba")
-		)
-		(pin "15"
-			(uuid "772f4077-210a-4dca-a29e-81a13b6dbfa1")
-		)
-		(pin "22"
-			(uuid "c52e798a-dec5-45bf-be95-726c27b3e611")
-		)
-		(pin "38"
-			(uuid "bd937666-140c-4fd7-a101-820bebbd12ae")
-		)
-		(pin "52"
-			(uuid "9952f8e7-0699-4012-89e8-29debe8de30a")
-		)
-		(pin "58"
-			(uuid "1e7b13ae-ca9c-4e33-8d8c-4d0ffd54645d")
-		)
-		(pin "60"
-			(uuid "9b327713-7512-41a2-8b9c-12b2e5096f8a")
-		)
-		(pin "13"
-			(uuid "0c8ec44e-8a93-47bd-a5b0-22eaf6e3cbf9")
-		)
-		(pin "21"
-			(uuid "e13700a8-214f-449d-9a5d-d8a861d8696a")
-		)
-		(pin "37"
-			(uuid "d60a71c0-12b9-4563-ae2b-0851b61fb6cf")
-		)
-		(pin "45"
-			(uuid "fe9c24e2-7b56-450c-8446-55aaad154949")
-		)
-		(pin "19"
-			(uuid "10d0cd96-cce0-4f78-b444-f6edb2577db0")
-		)
-		(pin "29"
-			(uuid "3b556b99-37fc-4467-9723-ce63dff88364")
-		)
-		(pin "40"
-			(uuid "974b7562-32c1-457b-afea-277bf12d00ea")
-		)
-		(pin "50"
-			(uuid "9f574098-eb0a-4801-9e0f-51ef13dc5bcc")
-		)
-		(pin "5"
-			(uuid "d72a2159-3779-45bc-a574-6b308e3e1c1c")
-		)
-		(pin "42"
-			(uuid "79377d15-1ebd-42a1-a0c9-e7cbf3fa4d87")
-		)
-		(pin "26"
-			(uuid "b177bc69-8417-4717-99a6-f72b897f1333")
-		)
-		(pin "9"
-			(uuid "9d11bb2e-1631-4ad7-8fdb-974d1fcde655")
-		)
-		(pin "2"
-			(uuid "430aff86-f925-43bc-a809-ccb1b706c70a")
-		)
-		(pin "20"
-			(uuid "82b7da1f-6b59-473a-bf27-ddff978b48a6")
-		)
-		(pin "43"
-			(uuid "b9118bba-df66-4f85-8968-9fed84a322fb")
-		)
-		(pin "3"
-			(uuid "c27c0dd5-2629-4137-9d5e-6ede5aaec534")
-		)
-		(pin "23"
-			(uuid "2d689cca-eabc-48bc-a8c5-a50d0e953bb0")
-		)
-		(pin "1"
-			(uuid "bc3a8200-24b1-49e1-a3cc-1b0f40741c84")
-		)
-		(pin "16"
-			(uuid "843637ef-f339-4b72-af86-58286fd0cbeb")
-		)
-		(pin "32"
-			(uuid "5276575b-5b7f-476a-97e0-de1e40cff514")
-		)
-		(pin "12"
-			(uuid "5bbad753-7773-48b9-bdf8-a057a5e08084")
-		)
-		(pin "46"
-			(uuid "b1025b3c-dd58-4871-95dc-1ebdf010a268")
-		)
-		(pin "49"
-			(uuid "40dc4fd1-55fa-4267-9fb4-d3a1df798e46")
-		)
-		(pin "11"
-			(uuid "494fe201-6147-4bab-bf8e-7ff1c1a19d5d")
-		)
-		(pin "41"
-			(uuid "99047646-615e-4083-b829-44c20e5be364")
-		)
-		(pin "4"
-			(uuid "e0035284-5a92-4a90-8c08-6f2bee71016e")
-		)
-		(pin "51"
-			(uuid "61208446-d276-4f57-a0a5-af3b4676ef2b")
-		)
-		(pin "54"
-			(uuid "6d43fb04-6ed7-4e6e-aa78-5a9768420c39")
-		)
-		(pin "61"
-			(uuid "a9d3ce67-67a1-47f3-9061-128d87748800")
-		)
-		(pin "8"
-			(uuid "0ffb5e17-0c50-45e8-a92a-f3911eeddf6c")
-		)
-		(instances
-			(project "Smart_Backpack"
-				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
-					(reference "U1")
 					(unit 1)
 				)
 			)
