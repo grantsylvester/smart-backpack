@@ -3704,7 +3704,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d6ce3c21-a733-4fa1-8134-cea10a02c4e5")
-		(property "Sheetname" "Components"
+		(property "Sheetname" "IMU"
 			(at 208.28 20.8784 0)
 			(effects
 				(font

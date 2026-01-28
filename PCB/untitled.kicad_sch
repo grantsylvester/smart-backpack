@@ -586,9 +586,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 143.51 78.74)
+		(uuid "0865124f-45d3-4c02-baa0-b44cb668b70a")
+	)
+	(no_connect
+		(at 143.51 93.98)
+		(uuid "2b197a6b-37bc-425a-a090-7b7927ee3712")
+	)
+	(no_connect
+		(at 143.51 104.14)
+		(uuid "2d173e3f-b3f3-4170-8fb4-8f678ebce0f2")
+	)
+	(no_connect
+		(at 143.51 91.44)
+		(uuid "75ea9ddc-0b75-4ac4-ab84-ed8df8d5e7d9")
+	)
+	(no_connect
+		(at 143.51 99.06)
+		(uuid "f76c74d2-3449-48f7-affc-dee1d84024f2")
+	)
 	(symbol
 		(lib_id "IMU:MPU-6050")
-		(at 44.45 40.64 0)
+		(at 143.51 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -597,7 +617,7 @@
 		(fields_autoplaced yes)
 		(uuid "93dbc1e1-5ea7-4cc8-8f81-28a986e134d5")
 		(property "Reference" "U2"
-			(at 67.31 30.48 0)
+			(at 166.37 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -605,7 +625,7 @@
 			)
 		)
 		(property "Value" "MPU-6050"
-			(at 67.31 33.02 0)
+			(at 166.37 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -613,7 +633,7 @@
 			)
 		)
 		(property "Footprint" "IMU:QFN24_4X4X0P9-0P5_TDK-L"
-			(at 44.45 40.64 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +643,7 @@
 			)
 		)
 		(property "Datasheet" "MPU-6050"
-			(at 44.45 40.64 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 40.64 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
