@@ -1105,7 +1105,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 48.26 52.07 90)
 			(effects
 				(font
@@ -1171,7 +1171,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 48.26 40.64 90)
 			(effects
 				(font

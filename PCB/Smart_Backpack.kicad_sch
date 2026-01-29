@@ -3314,7 +3314,7 @@
 		(fields_autoplaced yes)
 		(uuid "5263952e-90a8-4386-b0e8-5682ba328320")
 		(property "Reference" "R1"
-			(at 118.11 35.56 0)
+			(at 118.11 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 118.11 38.1 0)
+			(at 118.11 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
