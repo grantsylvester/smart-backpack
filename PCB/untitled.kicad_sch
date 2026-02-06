@@ -2544,6 +2544,12 @@
 		(uuid "8b7f1137-8d8b-49f1-a2d6-c5a1fe5b2539")
 	)
 	(junction
+		(at 86.36 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb870d6f-d9cb-4b44-b7a4-5b8726a54f95")
+	)
+	(junction
 		(at 34.29 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2701,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 60.96) (xy 86.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258252cd-996d-4a6c-8444-1e931a6ae1b6")
+	)
+	(wire
+		(pts
 			(xy 31.75 153.67) (xy 36.83 153.67)
 		)
 		(stroke
@@ -2788,6 +2804,16 @@
 			(type default)
 		)
 		(uuid "40350be6-8cf9-45e9-997e-63e4f8201142")
+	)
+	(wire
+		(pts
+			(xy 87.63 60.96) (xy 86.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4582f0a9-e4ca-4244-9e65-7c7da86d3a2e")
 	)
 	(wire
 		(pts
@@ -3131,6 +3157,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 69.85) (xy 86.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1159277-8ca2-4176-b0ed-c88da0112a16")
+	)
+	(wire
+		(pts
 			(xy 76.2 107.95) (xy 76.2 115.57)
 		)
 		(stroke
@@ -3211,13 +3247,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 52.07) (xy 95.25 55.88)
+			(xy 95.25 52.07) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f85ba2c7-8864-47e0-81eb-38b49fc035e1")
+	)
+	(wire
+		(pts
+			(xy 86.36 60.96) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe146fa5-b7a3-4c8c-9440-237c73e7bf8e")
 	)
 	(label "IMU_SDA"
 		(at 87.63 33.02 0)
@@ -3449,7 +3495,7 @@
 	)
 	(global_label "Buck_3v3"
 		(shape input)
-		(at 81.28 60.96 0)
+		(at 87.63 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3459,7 +3505,7 @@
 		)
 		(uuid "bb85372d-f89d-4c57-b8cb-27e286a2e8ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.1551 60.96 0)
+			(at 99.5051 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4053,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 55.88 0)
+		(at 95.25 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4016,7 +4062,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fe3d7d5-02f6-494f-a5ff-e4d6c5f5a750")
 		(property "Reference" "#PWR09"
-			(at 95.25 62.23 0)
+			(at 95.25 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4071,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 60.96 0)
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 55.88 0)
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 55.88 0)
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 55.88 0)
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,6 +5349,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a86485dc-dce8-4924-8b9a-d7986a9f1757")
+		(property "Reference" "C6"
+			(at 90.17 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 90.17 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.3252 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac0b4893-d9bd-4d7f-a4dd-ca976f1b87a3")
+		)
+		(pin "2"
+			(uuid "ae1749cd-2a0b-4db9-8163-f5ee87a51802")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 48.26 120.65 0)
 		(unit 1)
@@ -5500,6 +5616,71 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2e02f15-449f-41c3-85ee-49b0e0d25255")
+		(property "Reference" "#PWR024"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.662 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df48507-9b70-4525-b201-037e256856da")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
