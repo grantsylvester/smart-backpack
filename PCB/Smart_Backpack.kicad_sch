@@ -1729,6 +1729,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push_Dual_x2"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_Dual_x2"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, separate symbols, four pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1864,6 +2051,18 @@
 		)
 		(uuid 8ef0bf35-98be-40b6-b1cd-c70cbc7fa822)
 	)
+	(rectangle
+		(start 13.97 124.46)
+		(end 85.09 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb7c78a6-2cad-4654-ba45-e9de75695843)
+	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
 		(at 98.298 76.962 0)
@@ -1874,17 +2073,6 @@
 			(justify left bottom)
 		)
 		(uuid "05e4360e-26a1-42e8-baf5-b25046b219e1")
-	)
-	(text "Buck Converters"
-		(exclude_from_sim no)
-		(at 197.866 80.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a7e65fd-73f9-4215-b044-afe2a075a001")
 	)
 	(text "Microcontoller\n"
 		(exclude_from_sim no)
@@ -1897,17 +2085,6 @@
 		)
 		(uuid "2c5c59a3-936f-4336-b427-f4f57b808fdc")
 	)
-	(text "Correct footprints for all parts"
-		(exclude_from_sim no)
-		(at 197.866 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "754bdc17-0d9f-46ab-be1c-54bb20899766")
-	)
 	(text "Schematic To Do List:"
 		(exclude_from_sim no)
 		(at 182.626 76.454 0)
@@ -1919,27 +2096,27 @@
 		)
 		(uuid "82ee2128-b716-4428-b73b-4081c3ce565f")
 	)
-	(text "Fix Power circuit add reset pin"
+	(text "Reset Button\n"
 		(exclude_from_sim no)
-		(at 197.866 88.138 0)
+		(at 38.862 128.778 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.8 1.8)
 			)
 			(justify left bottom)
 		)
-		(uuid "a28de78a-6a88-4d49-9442-ae4d4fade3cd")
+		(uuid "b58db76f-8deb-41b7-934b-22c7138bcb3d")
 	)
-	(text "IMU"
+	(text "Fix USBC to add flashing capabilities"
 		(exclude_from_sim no)
-		(at 197.866 82.804 0)
+		(at 184.404 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "df6ee82a-971f-4642-b40c-cec10f8c6a14")
+		(uuid "c1e75f7f-9e23-41b1-93b0-e6f6680d7381")
 	)
 	(text "Microcontroller \n Power Filter"
 		(exclude_from_sim no)
@@ -1969,6 +2146,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cab4ff4-04cc-4d76-9e96-5f16e12cb224")
+	)
+	(junction
+		(at 31.75 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23801007-67a6-4f5d-94d4-4c77f6fec977")
 	)
 	(junction
 		(at 16.51 35.56)
@@ -2133,6 +2316,12 @@
 		(uuid "e27557ce-1e2c-489f-9a6a-a282aa5a1397")
 	)
 	(junction
+		(at 46.99 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e40ee7c8-c3e3-4f1d-95d3-990fab11729f")
+	)
+	(junction
 		(at 78.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2222,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 140.97) (xy 49.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125b78e1-3a47-46d7-9463-91fc63b4c268")
+	)
+	(wire
+		(pts
 			(xy 78.74 71.12) (xy 78.74 73.66)
 		)
 		(stroke
@@ -2279,6 +2478,16 @@
 			(type default)
 		)
 		(uuid "23a9d47d-e59f-467e-b34c-386feeb377fd")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 46.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f5c5f5-4657-4668-87bf-6557e5db8497")
 	)
 	(wire
 		(pts
@@ -2412,6 +2621,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 140.97) (xy 31.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9acbdb-b4a1-4eda-a2ce-28af735a595d")
+	)
+	(wire
+		(pts
 			(xy 68.58 88.9) (xy 78.74 88.9)
 		)
 		(stroke
@@ -2442,6 +2661,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 140.97) (xy 31.75 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612ed448-5d7d-4226-8795-94bd64793047")
+	)
+	(wire
+		(pts
 			(xy 68.58 78.74) (xy 78.74 78.74)
 		)
 		(stroke
@@ -2449,6 +2678,16 @@
 			(type default)
 		)
 		(uuid "62fc9c7b-ed2b-4f40-a046-b1562b0fd069")
+	)
+	(wire
+		(pts
+			(xy 43.18 146.05) (xy 46.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bdd549-964c-4ce3-83a6-9a9990f21386")
 	)
 	(wire
 		(pts
@@ -2782,6 +3021,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 153.67) (xy 31.75 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24e200e-ff3e-498d-ab97-0d1a73f2edb7")
+	)
+	(wire
+		(pts
+			(xy 46.99 146.05) (xy 46.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2919bc0-80d9-4221-8a52-226e51b7f64e")
+	)
+	(wire
+		(pts
 			(xy 68.58 83.82) (xy 78.74 83.82)
 		)
 		(stroke
@@ -2799,6 +3058,16 @@
 			(type default)
 		)
 		(uuid "c761a5a2-e7f3-43e5-abb9-45baff46b258")
+	)
+	(wire
+		(pts
+			(xy 57.15 140.97) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f7491e-6863-4104-931c-9820b5743a35")
 	)
 	(wire
 		(pts
@@ -2910,6 +3179,16 @@
 		)
 		(uuid "eb1396cf-1bf6-4ef2-82e1-f8bf52a803f4")
 	)
+	(wire
+		(pts
+			(xy 31.75 146.05) (xy 35.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23d4422-5088-4276-bae9-84f73a9039f6")
+	)
 	(global_label "ESP_EN"
 		(shape output)
 		(at 120.65 43.18 0)
@@ -2950,6 +3229,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP_EN"
+		(shape output)
+		(at 62.23 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92955b8b-8c69-423d-9c13-f3cfcea4f0e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.2908 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3642,6 +3943,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7805bb92-d815-473b-bd30-2938f3550b92")
+		(property "Reference" "#PWR030"
+			(at 31.75 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "affb7af3-d160-4083-9a68-d80970c0edbe")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 49.53 0)
 		(unit 1)
@@ -3778,6 +4143,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 53.34 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3811d3b-22e7-46aa-b2ad-b125c78e0959")
+		(property "Reference" "R11"
+			(at 53.086 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Minimum Resistance"
+			(at 57.658 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 53.594 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1fb7ebdd-af63-49f2-a401-cbf8e5be6ecb")
+		)
+		(pin "1"
+			(uuid "993ffe4f-7fe2-4ca1-86b5-b495b5f47c86")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 114.3 88.9 0)
 		(unit 1)
@@ -3905,6 +4336,146 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eba854fc-84b7-4b05-8838-dba395dd5da2")
+		(property "Reference" "C9"
+			(at 39.37 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 39.37 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 35.56 147.0152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d19e017-24dd-4a06-ba4e-05187b1efff1")
+		)
+		(pin "1"
+			(uuid "9cc1e464-d303-4104-9440-68adc1c06c2e")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 39.37 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec811447-e66e-4abb-83e3-8e513cb19f9e")
+		(property "Reference" "SW1"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 39.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3e83c3e6-d3e3-4b14-a0e8-d2df38e9c1e5")
+		)
+		(pin "1"
+			(uuid "213b9558-ba32-45f0-965f-dd3188690582")
+		)
+		(pin "4"
+			(uuid "b2ad7852-7a04-4558-8533-b5f3a6739f7c")
+		)
+		(pin "2"
+			(uuid "e813f0c0-f115-4d6e-9113-1f3413021682")
+		)
+		(instances
+			(project ""
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
