@@ -2118,6 +2118,17 @@
 		)
 		(uuid "c1e75f7f-9e23-41b1-93b0-e6f6680d7381")
 	)
+	(text "Add testing leds"
+		(exclude_from_sim no)
+		(at 184.658 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d62770b2-c9a5-476c-8000-68b4a3f5bd72")
+	)
 	(text "Microcontroller \n Power Filter"
 		(exclude_from_sim no)
 		(at 100.33 21.59 0)
