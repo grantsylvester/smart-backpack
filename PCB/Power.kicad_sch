@@ -4345,7 +4345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a703458-b9af-4377-a904-fe3bb86cadc0")
-		(property "Reference" "R"
+		(property "Reference" "R14"
 			(at 17.78 120.65 90)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 		(instances
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/2d9f036a-c70f-4011-9e39-88b7ded8327f"
-					(reference "R")
+					(reference "R14")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SMD_Button")(type "KiCad")(uri "${KIPRJMOD}/Custom Footprints/SMD_Button.pretty")(options "")(descr ""))
+)

@@ -4444,7 +4444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMD_Button:Shop_SMD_Button"
 			(at 39.37 135.89 0)
 			(effects
 				(font
