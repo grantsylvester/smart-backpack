@@ -2074,6 +2074,17 @@
 		)
 		(uuid "05e4360e-26a1-42e8-baf5-b25046b219e1")
 	)
+	(text "Real Time Clock"
+		(exclude_from_sim no)
+		(at 184.15 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aa1db17-2803-488d-9d36-1c6384b8c1e3")
+	)
 	(text "Microcontoller\n"
 		(exclude_from_sim no)
 		(at 57.15 20.32 0)
@@ -2084,6 +2095,17 @@
 			(justify right bottom)
 		)
 		(uuid "2c5c59a3-936f-4336-b427-f4f57b808fdc")
+	)
+	(text "USB-C Footprint"
+		(exclude_from_sim no)
+		(at 184.404 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "733c412c-0aa6-4ef7-adcf-a7b75df9cea5")
 	)
 	(text "Schematic To Do List:"
 		(exclude_from_sim no)
@@ -2107,7 +2129,7 @@
 		)
 		(uuid "b58db76f-8deb-41b7-934b-22c7138bcb3d")
 	)
-	(text "Fix USBC to add flashing capabilities"
+	(text "Fix USBC to add flashing capabilities\n"
 		(exclude_from_sim no)
 		(at 184.404 80.01 0)
 		(effects
@@ -3218,6 +3240,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO0"
+		(shape input)
+		(at 27.94 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19189d61-6b16-47a2-8cc3-1f06f4375aaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
