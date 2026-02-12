@@ -2655,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 87.63 35.56)
+			(xy 81.28 35.56) (xy 85.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2712,6 +2712,16 @@
 			(type default)
 		)
 		(uuid "13af116d-a572-464c-ba14-3febcc5ae2c1")
+	)
+	(wire
+		(pts
+			(xy 35.56 48.26) (xy 30.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d59bf7-4a78-4fa0-b030-400d07be6a3b")
 	)
 	(wire
 		(pts
@@ -2855,16 +2865,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 60.96) (xy 86.36 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4582f0a9-e4ca-4244-9e65-7c7da86d3a2e")
-	)
-	(wire
-		(pts
 			(xy 21.59 62.23) (xy 21.59 66.04)
 		)
 		(stroke
@@ -2882,6 +2882,16 @@
 			(type default)
 		)
 		(uuid "4a34dbb8-8768-485f-802d-593e7bfb9fe5")
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 30.48 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5b34a6-3dcf-43cb-ae80-1d114c447c69")
 	)
 	(wire
 		(pts
@@ -2965,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 87.63 33.02)
+			(xy 81.28 33.02) (xy 85.09 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3393,36 +3403,6 @@
 		)
 		(uuid "fe146fa5-b7a3-4c8c-9440-237c73e7bf8e")
 	)
-	(label "IMU_SDA"
-		(at 87.63 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "230529bb-e8a5-48cf-9eaf-e3abf0ea14f3")
-	)
-	(label "MISO"
-		(at 39.37 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d7baeed-70df-4ea0-9bb8-db5a8c98819d")
-	)
-	(label "SPI_RST"
-		(at 39.37 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d69cd12-7747-4135-b254-c49744e20ce0")
-	)
 	(label "LAPTOP"
 		(at 113.03 173.99 0)
 		(effects
@@ -3442,36 +3422,6 @@
 			(justify left bottom)
 		)
 		(uuid "564d3892-488b-4473-a94d-86d1732d03ba")
-	)
-	(label "SCK"
-		(at 39.37 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "579f9178-04b1-4cb5-a1ef-674b2bdc8b84")
-	)
-	(label "MOSI"
-		(at 39.37 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ae9fe45-0423-456e-bdc3-ca6cea7062b1")
-	)
-	(label "SS"
-		(at 39.37 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b0915b0-3bf5-4f3e-9abc-2b8938857ec8")
 	)
 	(label "MOIST_SIG"
 		(at 82.55 115.57 0)
@@ -3512,16 +3462,6 @@
 			(justify left bottom)
 		)
 		(uuid "aa09422d-5ffd-4e2d-9fa3-4138a1cf918a")
-	)
-	(label "IMU_SCL"
-		(at 87.63 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3478352-b20a-4d76-ab40-9478aa6e5c27")
 	)
 	(label "FLEX_1"
 		(at 35.56 109.22 0)
@@ -3565,6 +3505,28 @@
 			)
 		)
 	)
+	(global_label "RFID_RST"
+		(shape output)
+		(at 39.37 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "111de758-e9a8-4d3a-9029-cce528bdfcb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.0033 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPS_TX"
 		(shape output)
 		(at 99.06 144.78 180)
@@ -3587,6 +3549,94 @@
 			)
 		)
 	)
+	(global_label "IMU_SDA"
+		(shape input)
+		(at 85.09 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56eae954-5950-483e-a1ef-7153086e2906")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.9976 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_MISO"
+		(shape output)
+		(at 39.37 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68a3a64f-4adb-42db-a7f5-9343753bc5a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.1524 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_SCLK"
+		(shape output)
+		(at 39.37 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d4d1ab4-5e37-4d93-b112-3ce189283e6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.3338 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_MOSI"
+		(shape output)
+		(at 39.37 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7de24582-5f1e-4026-ac7d-9a5229804057")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.1524 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_SDA"
 		(shape input)
 		(at 120.65 36.83 180)
@@ -3600,28 +3650,6 @@
 		(uuid "7f29669f-7ece-4f9c-96ea-5e5594baeb89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.5006 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Buck_3v3"
-		(shape input)
-		(at 35.56 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a959723-635b-485e-9465-1a3088c6faa3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.6849 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,9 +3681,9 @@
 			)
 		)
 	)
-	(global_label "Buck_3v3"
-		(shape input)
-		(at 87.63 60.96 0)
+	(global_label "RFID_CS"
+		(shape output)
+		(at 39.37 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3663,9 +3691,9 @@
 			)
 			(justify left)
 		)
-		(uuid "bb85372d-f89d-4c57-b8cb-27e286a2e8ee")
+		(uuid "ccdfef25-b2ea-4b0b-b1c5-10d7338567d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5051 60.96 0)
+			(at 50.0357 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,24 +3703,24 @@
 			)
 		)
 	)
-	(global_label "Buck_3v3"
+	(global_label "IMU_SCL"
 		(shape input)
-		(at 128.27 43.18 180)
+		(at 85.09 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "be18b424-8c87-4117-844f-7d58a54368ad")
+		(uuid "d873621b-cf6d-4a62-885f-302568ddaf45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3949 43.18 0)
+			(at 95.9371 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3719,25 +3747,68 @@
 			)
 		)
 	)
-	(global_label "Buck_3v3"
-		(shape input)
-		(at 128.27 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f717b04e-f1b9-43c3-ab73-325ae18881fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3949 26.67 0)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 86.36 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09364706-5033-4d20-9e1c-2a8a7a2d9ec6")
+		(property "Reference" "#PWR042"
+			(at 86.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 89.662 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e224a33-b708-40ef-a0a3-edea6be9e111")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
+					(reference "#PWR042")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4168,6 +4239,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 128.27 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d29121-9580-415a-b4a7-b9e9cc5d5033")
+		(property "Reference" "#PWR040"
+			(at 128.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 128.27 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28e59b8a-46e6-4cc3-8bae-1095dc3c2a51")
+		)
+		(instances
+			(project ""
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 143.51 0)
 		(unit 1)
@@ -4228,6 +4365,71 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 128.27 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "216e1f72-b5a9-43b2-9667-52e9eda4328a")
+		(property "Reference" "#PWR041"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 131.572 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "285dc3aa-194a-4065-b655-69186e0b2a53")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6061,6 +6263,72 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 30.48 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58c3846-7822-4c4c-af4c-6fd585dc9635")
+		(property "Reference" "#PWR043"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 30.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a5c525a-ad6f-4f5b-ad88-4c0fe7da0d35")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/d6ce3c21-a733-4fa1-8134-cea10a02c4e5"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
