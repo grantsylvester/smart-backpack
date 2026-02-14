@@ -1718,107 +1718,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1902,7 +1801,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Dual_x2"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1919,7 +1821,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Push_Dual_x2"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(effects
 					(font
@@ -1945,7 +1847,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1963,7 +1865,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Dual_x2_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2010,12 +1912,10 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SW_Push_Dual_x2_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "C"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2033,7 +1933,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "D"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2041,44 +1941,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Dual_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2216,8 +2078,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2293,8 +2159,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2733,8 +2598,32 @@
 		(uuid "f8771315-e04b-4747-823a-65e0d898494f")
 	)
 	(no_connect
+		(at 27.94 106.68)
+		(uuid "04811dc9-2998-4baf-a02b-25da13b79d7f")
+	)
+	(no_connect
+		(at 68.58 101.6)
+		(uuid "1da315f0-b325-4613-a596-0668881107f6")
+	)
+	(no_connect
+		(at 27.94 93.98)
+		(uuid "31ea00c3-71b8-4dc5-8e1d-97b31705fcf5")
+	)
+	(no_connect
 		(at 27.94 88.9)
 		(uuid "496bbadf-2599-4107-832f-5b84f7d667e8")
+	)
+	(no_connect
+		(at 27.94 73.66)
+		(uuid "a82fdc72-0897-40f6-927b-1f7e77796c87")
+	)
+	(no_connect
+		(at 27.94 55.88)
+		(uuid "e179cf66-c910-410e-8da2-2afd5aa0d468")
+	)
+	(no_connect
+		(at 68.58 106.68)
+		(uuid "f8faca23-be6c-4764-87da-218303924616")
 	)
 	(wire
 		(pts
@@ -3822,6 +3711,28 @@
 			)
 		)
 	)
+	(global_label "MOIST_SIG"
+		(shape input)
+		(at 27.94 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0be845d7-d6b1-4bf9-90d0-bf8d46a673db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.3391 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO0"
 		(shape input)
 		(at 27.94 91.44 180)
@@ -3889,7 +3800,7 @@
 		)
 	)
 	(global_label "IMU_SCL"
-		(shape input)
+		(shape output)
 		(at 27.94 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3955,7 +3866,7 @@
 		)
 	)
 	(global_label "RFID_CS"
-		(shape input)
+		(shape output)
 		(at 27.94 86.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3976,8 +3887,52 @@
 			)
 		)
 	)
-	(global_label "IMU_SDA"
+	(global_label "HALL_1"
 		(shape input)
+		(at 27.94 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b3f886f-a093-4246-90d8-7840af992778")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3024 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FLEX_1"
+		(shape input)
+		(at 27.94 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61e98c6d-6fda-48a1-bc4c-c198f2fade2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_SDA"
+		(shape bidirectional)
 		(at 68.58 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3988,7 +3943,7 @@
 		)
 		(uuid "62253c71-dea1-474b-85da-532bc899f5a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.4876 104.14 0)
+			(at 80.5989 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +3954,7 @@
 		)
 	)
 	(global_label "RFID_SCLK"
-		(shape input)
+		(shape output)
 		(at 27.94 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4011,6 +3966,28 @@
 		(uuid "64a96077-d3f0-452b-83af-7e7230517570")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.9762 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LAPTOP"
+		(shape input)
+		(at 27.94 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "687b110e-3fb7-44ce-8f61-072f320aa36f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,6 +4015,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_2"
+		(shape input)
+		(at 27.94 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97529139-a8ef-4c65-8880-f367f0ada425")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3024 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4087,7 +4086,7 @@
 		)
 	)
 	(global_label "RFID_MOSI"
-		(shape input)
+		(shape output)
 		(at 27.94 83.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4099,6 +4098,50 @@
 		(uuid "cac6d423-ce65-4ccf-9324-32d80a7621ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.1576 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RFID_RST"
+		(shape output)
+		(at 27.94 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0574f73-fb73-45ce-85cc-4568643a656e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.3067 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FLEX_2"
+		(shape input)
+		(at 27.94 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5d92b9f-9101-4b67-ba60-eb227d41f4ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3025 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26250eb8-ae31-4f85-8b63-c35fb8f65e1b")
-		(property "Reference" "RTC"
+		(property "Reference" "RTC1"
 			(at 110.49 111.7599 90)
 			(effects
 				(font
@@ -4554,7 +4597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RTC:XTAL_AB38T-32.768KHZ-B7"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -4590,14 +4633,13 @@
 		(instances
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
-					(reference "RTC")
+					(reference "RTC1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 115.57 57.15 0)
 		(unit 1)
@@ -4707,12 +4749,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4746,7 +4789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10MΩ"
 			(at 128.27 114.2999 0)
 			(effects
 				(font
@@ -4755,7 +4798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 126.746 113.284 90)
 			(effects
 				(font
@@ -4909,12 +4952,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4978,12 +5022,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 104.14 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5018,7 +5063,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 97.79 124.46 90)
 			(effects
 				(font
@@ -5026,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 101.6 117.1448 0)
 			(effects
 				(font
@@ -5178,12 +5223,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5244,12 +5290,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 115.57 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5268,7 +5315,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 91.44 49.53 0)
 		(unit 1)
@@ -5329,6 +5375,74 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 39.37 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3b2d509-0bb9-481a-b659-f4b9e0ffad3f")
+		(property "Reference" "SW1"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Button:Shop_SMD_Button"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 39.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b22f002-6578-40b0-8dc7-55dc5e1fc4a0")
+		)
+		(pin "1"
+			(uuid "9b5bfabd-752c-4998-a93c-fdbc31c86014")
+		)
+		(instances
+			(project ""
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5532,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 97.79 102.87 90)
 			(effects
 				(font
@@ -5426,7 +5540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 101.6 106.9848 0)
 			(effects
 				(font
@@ -5511,12 +5625,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 53.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5644,12 +5759,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 91.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5710,12 +5826,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 39.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5728,80 +5845,6 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 39.37 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec811447-e66e-4abb-83e3-8e513cb19f9e")
-		(property "Reference" "SW1"
-			(at 39.37 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Dual_x2"
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMD_Button:Shop_SMD_Button"
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 39.37 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3e83c3e6-d3e3-4b14-a0e8-d2df38e9c1e5")
-		)
-		(pin "1"
-			(uuid "213b9558-ba32-45f0-965f-dd3188690582")
-		)
-		(pin "4"
-			(uuid "b2ad7852-7a04-4558-8533-b5f3a6739f7c")
-		)
-		(pin "2"
-			(uuid "e813f0c0-f115-4d6e-9113-1f3413021682")
-		)
-		(instances
-			(project ""
-				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
