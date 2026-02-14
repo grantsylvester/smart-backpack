@@ -2249,17 +2249,6 @@
 		)
 		(uuid "05e4360e-26a1-42e8-baf5-b25046b219e1")
 	)
-	(text "Real Time Clock"
-		(exclude_from_sim no)
-		(at 184.15 85.598 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1aa1db17-2803-488d-9d36-1c6384b8c1e3")
-	)
 	(text "Microcontoller\n"
 		(exclude_from_sim no)
 		(at 57.15 20.32 0)
@@ -2323,17 +2312,6 @@
 			(justify left bottom)
 		)
 		(uuid "b58db76f-8deb-41b7-934b-22c7138bcb3d")
-	)
-	(text "Fix USBC to add flashing capabilities\n"
-		(exclude_from_sim no)
-		(at 184.404 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1e75f7f-9e23-41b1-93b0-e6f6680d7381")
 	)
 	(text "Add testing leds"
 		(exclude_from_sim no)
@@ -5599,8 +5577,8 @@
 				)
 			)
 		)
-		(property "Value" "Minimum Resistance"
-			(at 57.658 138.43 90)
+		(property "Value" "5Ω"
+			(at 53.086 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
