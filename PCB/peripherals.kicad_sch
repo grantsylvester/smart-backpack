@@ -3459,7 +3459,7 @@
 	)
 	(global_label "RFID_RST"
 		(shape input)
-		(at 39.37 165.1 0)
+		(at 39.37 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3469,7 +3469,7 @@
 		)
 		(uuid "111de758-e9a8-4d3a-9029-cce528bdfcb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.0033 165.1 0)
+			(at 50.0357 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3547,7 @@
 	)
 	(global_label "RFID_MISO"
 		(shape output)
-		(at 39.37 162.56 0)
+		(at 39.37 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3557,7 +3557,7 @@
 		)
 		(uuid "68a3a64f-4adb-42db-a7f5-9343753bc5a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.1524 162.56 0)
+			(at 52.1524 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3591,7 @@
 	)
 	(global_label "RFID_MOSI"
 		(shape input)
-		(at 39.37 160.02 0)
+		(at 39.37 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3601,7 +3601,7 @@
 		)
 		(uuid "7de24582-5f1e-4026-ac7d-9a5229804057")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.1524 160.02 0)
+			(at 52.1524 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3635,7 @@
 	)
 	(global_label "RFID_CS"
 		(shape input)
-		(at 39.37 154.94 0)
+		(at 39.37 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3645,7 +3645,7 @@
 		)
 		(uuid "ccdfef25-b2ea-4b0b-b1c5-10d7338567d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0357 154.94 0)
+			(at 51.0033 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B3PS-VH_1x03_P3.96mm_Horizontal"
 			(at 95.25 173.99 0)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2PS-VH_1x02_P3.96mm_Horizontal"
 			(at 25.4 104.14 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2PS-VH_1x02_P3.96mm_Horizontal"
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -5367,7 +5367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B7P-VH_1x07_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B7PS-VH_1x07_P3.96mm_Horizontal"
 			(at 27.94 160.02 0)
 			(effects
 				(font
@@ -6202,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B3PS-VH_1x03_P3.96mm_Horizontal"
 			(at 63.5 138.43 0)
 			(effects
 				(font
@@ -6666,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B3PS-VH_1x03_P3.96mm_Horizontal"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -6737,7 +6737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B3PS-VH_1x03_P3.96mm_Horizontal"
 			(at 62.23 107.95 0)
 			(effects
 				(font
