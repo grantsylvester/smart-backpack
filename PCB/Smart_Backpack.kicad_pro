@@ -52,44 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "clearance|97785500|104327500|ec0f0659-9e17-4bb1-b68b-fe2a9e94bf93|d58c1189-fea9-42e4-a6fe-8d1f0fe81aeb",
-          "Part of footprint"
-        ],
-        [
-          "clearance|97785500|104827500|0fb9e3b3-1066-4cfa-bafc-aa967d9000d4|ec0f0659-9e17-4bb1-b68b-fe2a9e94bf93",
-          "Part of footprint"
-        ],
-        [
-          "clearance|99210500|104002500|63f71adf-7618-497a-8575-9fee69bd3dfc|0edc00fb-b67b-43e9-9079-7353302682f2",
-          "Part of footprint"
-        ],
-        [
-          "clearance|99210500|104502500|0edc00fb-b67b-43e9-9079-7353302682f2|c500410f-3e06-4367-a73d-75d162356445",
-          "Part of footprint"
-        ],
-        [
-          "lib_footprint_issues|98706500|108442500|012fe7b2-d970-4f59-a798-8c23cd35a71e|00000000-0000-0000-0000-000000000000",
-          "Its just a 1206 footprint"
-        ],
-        [
-          "shorting_items|128016998|108693001|abf96e0f-c91e-40f7-8b2b-a824729ed3e8|b25cc801-88ea-4118-98a7-8023815cced7",
-          "Part of footprint"
-        ],
-        [
-          "silk_overlap|97668000|103285000|07d94e72-22b7-4cca-8821-d4b04df438a9|1a63c67d-8e5f-44d8-a51f-99bc842fa44c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|128016998|108693001|b25cc801-88ea-4118-98a7-8023815cced7|abf96e0f-c91e-40f7-8b2b-a824729ed3e8",
-          "Part of footprint"
-        ],
-        [
-          "unconnected_items|128016998|108693001|F.Cu|4|abf96e0f-c91e-40f7-8b2b-a824729ed3e8|e3ad2ece-8c6b-4516-b747-e4608fc9dac1",
-          "part of footprint"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
