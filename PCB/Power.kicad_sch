@@ -2801,7 +2801,7 @@
 	)
 	(text "5V DC to 3.3V DC\n Buck Converter"
 		(exclude_from_sim no)
-		(at 125.73 18.796 0)
+		(at 129.286 19.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2821,7 +2821,7 @@
 	)
 	(text "USB-C Receptacle \n"
 		(exclude_from_sim no)
-		(at 63.5 19.558 0)
+		(at 62.484 18.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2900,6 +2900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1ee6005-6e62-49da-832a-3d004e4ba1d0")
+	)
+	(junction
+		(at 97.79 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf7d30f2-3569-4fda-9d59-619128fe3b1a")
 	)
 	(junction
 		(at 72.39 31.75)
@@ -5957,6 +5963,72 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/2d9f036a-c70f-4011-9e39-88b7ded8327f"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 97.79 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6db23449-5c57-4d70-901d-1f3e107a57b9")
+		(property "Reference" "#FLG03"
+			(at 95.885 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 98.552 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c3ada20-d9bf-40de-a100-735778a9cf8a")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6/2d9f036a-c70f-4011-9e39-88b7ded8327f"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

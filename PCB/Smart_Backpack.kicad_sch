@@ -2260,17 +2260,6 @@
 		)
 		(uuid "2c5c59a3-936f-4336-b427-f4f57b808fdc")
 	)
-	(text "USB-C Footprint"
-		(exclude_from_sim no)
-		(at 184.404 88.138 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "733c412c-0aa6-4ef7-adcf-a7b75df9cea5")
-	)
 	(text "32.768kHz RTC"
 		(exclude_from_sim no)
 		(at 95.504 98.044 0)
@@ -2280,27 +2269,6 @@
 			)
 		)
 		(uuid "79646708-2ee0-494a-9fd6-1141c93bfd68")
-	)
-	(text "Schematic To Do List:"
-		(exclude_from_sim no)
-		(at 182.626 76.454 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "82ee2128-b716-4428-b73b-4081c3ce565f")
-	)
-	(text "I think we leave this one floating, its the other strapping pin"
-		(exclude_from_sim no)
-		(at -3.302 89.154 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b13c2aa4-d888-4105-af11-a61ee882dc09")
 	)
 	(text "Reset Button\n"
 		(exclude_from_sim no)
@@ -2312,17 +2280,6 @@
 			(justify left bottom)
 		)
 		(uuid "b58db76f-8deb-41b7-934b-22c7138bcb3d")
-	)
-	(text "Add testing leds"
-		(exclude_from_sim no)
-		(at 184.658 82.804 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d62770b2-c9a5-476c-8000-68b4a3f5bd72")
 	)
 	(text "Microcontroller \n Power Filter"
 		(exclude_from_sim no)

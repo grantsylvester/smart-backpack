@@ -2527,7 +2527,7 @@
 	)
 	(text "IMU Chip"
 		(exclude_from_sim no)
-		(at 58.674 17.272 0)
+		(at 53.34 2.794 0)
 		(effects
 			(font
 				(size 1.75 1.75)
