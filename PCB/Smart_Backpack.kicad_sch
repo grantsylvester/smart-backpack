@@ -2541,10 +2541,6 @@
 		(uuid "1da315f0-b325-4613-a596-0668881107f6")
 	)
 	(no_connect
-		(at 27.94 93.98)
-		(uuid "31ea00c3-71b8-4dc5-8e1d-97b31705fcf5")
-	)
-	(no_connect
 		(at 27.94 88.9)
 		(uuid "496bbadf-2599-4107-832f-5b84f7d667e8")
 	)
@@ -3659,6 +3655,28 @@
 		(uuid "0be845d7-d6b1-4bf9-90d0-bf8d46a673db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.3391 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR"
+		(shape output)
+		(at 27.94 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16963ffc-2cb6-4998-a33d-00a1a38dc31c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.6048 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
