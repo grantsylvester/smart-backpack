@@ -15242,6 +15242,19 @@
 		(layer "Edge.Cuts")
 		(uuid "f394abb4-8ed0-4a89-923b-243e36d3d83d")
 	)
+	(gr_text "ECE49595\nTeam 10\nColin Fennen\nGrant Sylvester\nJosie Thomas\nJack Douthit"
+		(at 149.098 104.14 0)
+		(layer "B.Cu")
+		(uuid "d6428866-fde3-4161-bada-91f6bec1dfc0")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2286)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "+"
 		(at 109.61 110.95 0)
 		(layer "F.SilkS")
