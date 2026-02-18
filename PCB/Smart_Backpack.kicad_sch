@@ -4311,7 +4311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ESP32-PICO-MINI-02-N8R2"
+		(property "Datasheet" "https://documentation.espressif.com/esp32-pico-mini-02_datasheet_en.pdf"
 			(at 27.94 35.56 0)
 			(effects
 				(font
@@ -4559,7 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.waldom.com/upload/parts/datasheets/mf-abr/abr-ab38t-32768khz.pdf"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -4760,7 +4760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 125.73 113.03 0)
 			(effects
 				(font
@@ -4896,7 +4896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 115.57 36.83 0)
 			(effects
 				(font
@@ -4966,7 +4966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -5033,7 +5033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 97.79 118.11 0)
 			(effects
 				(font
@@ -5234,7 +5234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05Y105KP6VPN"
 			(at 115.57 49.53 0)
 			(effects
 				(font
@@ -5368,7 +5368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.citrelay.com/wp-content/uploads/2025/05/Switch-CS1102.pdf"
 			(at 39.37 135.89 0)
 			(effects
 				(font
@@ -5502,7 +5502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -5569,7 +5569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 53.34 140.97 0)
 			(effects
 				(font
@@ -5639,7 +5639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
 			(at 91.44 36.83 0)
 			(effects
 				(font
@@ -5706,7 +5706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 39.37 146.05 0)
 			(effects
 				(font
