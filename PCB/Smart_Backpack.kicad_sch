@@ -2533,10 +2533,6 @@
 		(uuid "f8771315-e04b-4747-823a-65e0d898494f")
 	)
 	(no_connect
-		(at 27.94 106.68)
-		(uuid "04811dc9-2998-4baf-a02b-25da13b79d7f")
-	)
-	(no_connect
 		(at 68.58 101.6)
 		(uuid "1da315f0-b325-4613-a596-0668881107f6")
 	)
@@ -3968,6 +3964,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_INT"
+		(shape output)
+		(at 27.94 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "933f6ad7-fedf-4ce9-b1e3-566ee785521c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6976 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
