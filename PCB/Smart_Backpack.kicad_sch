@@ -3969,7 +3969,7 @@
 		)
 	)
 	(global_label "IMU_INT"
-		(shape output)
+		(shape input)
 		(at 27.94 106.68 180)
 		(fields_autoplaced yes)
 		(effects
