@@ -6866,7 +6866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 54.61 52.07 0)
 			(effects
 				(font
@@ -7558,7 +7558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 62.23 52.07 0)
 			(effects
 				(font
