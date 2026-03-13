@@ -3173,6 +3173,12 @@
 		(uuid "97a9bffe-b150-4921-a3f9-a1332239e437")
 	)
 	(junction
+		(at 237.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd93252-7421-440e-933e-0345e6ef12a2")
+	)
+	(junction
 		(at 78.74 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3664,7 +3670,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 93.98) (xy 241.3 93.98)
+			(xy 236.22 93.98) (xy 237.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4114,6 +4120,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 90.17) (xy 237.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8752dac9-0780-499b-b0f4-48d71904ebcf")
+	)
+	(wire
+		(pts
 			(xy 78.74 35.56) (xy 78.74 38.1)
 		)
 		(stroke
@@ -4181,6 +4197,16 @@
 			(type default)
 		)
 		(uuid "93aee9b2-f299-4b40-84e1-8311e693b7de")
+	)
+	(wire
+		(pts
+			(xy 237.49 80.01) (xy 237.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a27c21f-5ca8-4003-b9dc-489346ba4263")
 	)
 	(wire
 		(pts
@@ -4411,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "c0a78c63-2b61-493a-8c78-07bd1247c4bf")
+	)
+	(wire
+		(pts
+			(xy 237.49 93.98) (xy 241.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1242a6a-0eae-4c7a-b93e-fa1a44ede10b")
 	)
 	(wire
 		(pts
@@ -7016,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Value" "5Ω"
+		(property "Value" "0Ω"
 			(at 232.156 91.694 90)
 			(effects
 				(font
@@ -7334,6 +7370,72 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 237.49 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f6580c9-341b-436f-89ab-0c890fd9f27c")
+		(property "Reference" "#PWR059"
+			(at 237.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 237.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceb4a965-1cef-44f4-80e2-68b315612475")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8001,6 +8103,75 @@
 			(project "Smart_Backpack"
 				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 237.49 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb9f8a48-45e2-4ba3-b13e-a4835dafa0a7")
+		(property "Reference" "R21"
+			(at 240.03 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 240.03 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 238.506 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adca3ed2-c474-463a-9e68-109968d41618")
+		)
+		(pin "1"
+			(uuid "33c7c804-eecd-4530-a33e-137e3625af20")
+		)
+		(instances
+			(project "Smart_Backpack"
+				(path "/38abc652-c887-4ef7-a45f-d93ca7f4b2d6"
+					(reference "R21")
 					(unit 1)
 				)
 			)
